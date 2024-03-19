@@ -60,7 +60,7 @@ const resetGame = () => {
       <main className='board'>
 
           <h1>TIC-TAC-TOE</h1>
-          <button onClick={resetGame}>Reset del juego</button>
+          <button onClick={resetGame}>Reiniciar juego</button>
           <section className='game'>
           {
             board.map( (square,index) => 
